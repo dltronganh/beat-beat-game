@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://c1majugvldao0"]
+
+[ext_resource type="Script" uid="uid://c52xlc6t4o1g8" path="res://scripts/main.gd" id="1_o5qli"]
+
+[node name="Main" type="Control" unique_id=1499910778]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_o5qli")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=730133543]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1363878629]
+layout_mode = 2
+
+[node name="NextLeft" type="Label" parent="VBoxContainer/HBoxContainer" unique_id=1650659076]
+layout_mode = 2
+
+[node name="CurrentLeft" type="Label" parent="VBoxContainer/HBoxContainer" unique_id=2014955042]
+layout_mode = 2
+
+[node name="NextRight" type="Label" parent="VBoxContainer/HBoxContainer" unique_id=1322718369]
+layout_mode = 2
+
+[node name="CurrentRight" type="Label" parent="VBoxContainer/HBoxContainer" unique_id=516483926]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer" unique_id=276763841]
+layout_mode = 2
+
+[node name="Panel" type="Panel" parent="VBoxContainer" unique_id=1392668319]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer" unique_id=1059715290]
+layout_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer" unique_id=1170578010]
+layout_mode = 2
+
+[node name="LeftRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2" unique_id=880117429]
+layout_mode = 2
+
+[node name="RightRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2" unique_id=1186959512]
+layout_mode = 2
